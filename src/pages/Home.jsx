@@ -32,14 +32,18 @@ function Home() {
     return (
         <>
             <Header />
-            <div className='min-h center-div bg-lite'>
+            <div className='min-h center-div bg-lite max-width mx-auto'>
                 {
                     loading &&
                     <Spinner />
                 }
                 {
                     error &&
-                    <p className='font-bold text-xl'>Error while fetching data</p>
+                    <div className='font-bold text-dark text-center'>
+                        <p>Error while fetching data.</p>
+                        <p>Server might be down.</p>
+                        <p>Please refresh the page or try after sometime.</p>
+                    </div>
                 }
                 {
                     data &&

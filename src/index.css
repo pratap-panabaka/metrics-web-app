@@ -16,12 +16,20 @@
   }
 
   .tb {
-    @apply border-collapse border border-toodark
+    @apply border-collapse border border-toodark px-5 py-2
+  }
+
+  .max-width {
+    @apply max-w-3xl mx-auto
   }
 }
 
 @layer base {
   span {
-    @apply text-green-500
+    @apply text-dark font-bold
+  }
+
+  html {
+    @apply bg-toolite
   }
 }

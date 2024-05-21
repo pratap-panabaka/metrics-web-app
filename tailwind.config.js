@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        'custom': '4px 4px 4px 4px rgba(22, 72, 99, 1)',
+        'custom': '2px 2px 2px 2px rgba(62, 25, 41, 1)',
       },
       colors: {
-        toodark: "#121481",
-        dark: "#FFB1B1",
-        lite: "#FFCBCB",
-        toolite: "#FFEAE3"
+        toodark: "#3e1929",
+        dark: "#345995",
+        lite: "#edcfbd",
+        toolite: "#eeebd0"
       }
     },
   },

@@ -5,11 +5,11 @@ function SchemeMetrics() {
     const { state } = useMfiContext();
 
     return (
-        <div className="center-div bg-dark">
+        <div className="min-h center-div bg-lite max-width">
             {
                 !state &&
-                <div>
-                    <h2>You might have hit refresh/ Page might have reloaded. Click Back button to details page.</h2>
+                <div className="text-white text-center">
+                    <h2>You might have hit refresh/ Page might have reloaded. Click Back button on the top to to to details page.</h2>
                 </div>
             }
             {
