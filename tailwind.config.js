@@ -10,10 +10,10 @@ export default {
         'custom': '2px 2px 2px 2px rgba(62, 25, 41, 1)',
       },
       colors: {
-        toodark: "#3e1929",
-        dark: "#345995",
-        lite: "#edcfbd",
-        toolite: "#eeebd0"
+        toodark: "#02182b",
+        dark: "#016fb9",
+        lite: "#e7f9a9",
+        toolite: "#68c5db"
       },
       fontFamily: {
         sans: ['"poiret-one"', "sans-serif"],

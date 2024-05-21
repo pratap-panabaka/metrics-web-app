@@ -3,17 +3,16 @@ import { FcNext } from 'react-icons/fc';
 
 function Card(props) {
     const obj = props;
-    const { fundingInstitute } = obj;
+    const { fundingInstitute, index } = obj;
 
     return (
-        <div className='text-center text-toodark font-custom text-sm min-h-[200px] space-y-2 bg-toolite items-center justify-center flex flex-col p-5'>
+        <div className='relative text-center text-white font-custom text-sm min-h-[200px] space-y-2 bg-dark items-center justify-center flex flex-col p-5'>
             <div>{fundingInstitute.schemeName}</div>
             <p>{fundingInstitute.schemeCode}</p>
-            <span>
-                <Link to={`/${fundingInstitute.schemeCode}`}>
-                    <FcNext className='items-center text-center font-bold' />
-                </Link>
-            </span>
+            <Link to={`/${fundingInstitute.schemeCode}`} className='text-toodark'>
+                <FcNext className='items-center text-center text-xl' />
+            </Link>
+            <p className='absolute top-1 right-1 font-normal font-sans text-dark'>{index + 1}</p>
         </div>
     )
 }

@@ -37,27 +37,27 @@ function SchemeDetails() {
                         <div className="text-center font-bold font-custom">Details of Scheme Code - {state.meta.scheme_code}</div>
                         <div className="border border-toodark px-4 py-2">
                             <p>Funding House Name:-</p>
-                            <p className="font-bold font-custom text-toolite">{state.meta.fund_house}</p>
+                            <p className="font-bold font-custom text-white">{state.meta.fund_house}</p>
                         </div>
                         <div className="border border-toodark px-4 py-2">
                             <p>Scheme Category:-</p>
-                            <p className="font-bold font-custom text-toolite">{state.meta.scheme_category}</p>
+                            <p className="font-bold font-custom text-white">{state.meta.scheme_category}</p>
                         </div>
                         <div className="border border-toodark px-4 py-2">
                             <p>Scheme Code:-</p>
-                            <p className="font-bold font-custom text-toolite">{state.meta.scheme_code}</p>
+                            <p className="font-bold font-custom text-white">{state.meta.scheme_code}</p>
                         </div >
                         <div className="border border-toodark px-4 py-2">
                             <p>Scheme Name:-</p>
-                            <p className="font-bold font-custom text-toolite">{state.meta.scheme_name}</p>
+                            <p className="font-bold font-custom text-white">{state.meta.scheme_name}</p>
                         </div >
                         <div className="border border-toodark px-4 py-2">
                             <p> Scheme Type:-</p>
-                            <p className="font-bold font-custom text-toolite">{state.meta.scheme_type}</p>
+                            <p className="font-bold font-custom text-white">{state.meta.scheme_type}</p>
                         </div >
                         <div className="border border-toodark px-4 py-2">
                             <p>Number of rows found:-</p>
-                            <p className="font-bold font-custom text-toolite">{state.data.length}</p>
+                            <p className="font-bold font-custom text-white">{state.data.length}</p>
                         </div >
                     </div >
                 </div >
