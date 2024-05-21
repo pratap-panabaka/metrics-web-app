@@ -12,10 +12,10 @@ function Header() {
     return (
         <header className='bg-toodark sticky top-0 z-50'>
             <nav className="max-width">
-                <div className="flex max-w-7xl text-white mx-auto items-center h-16 p-5">
+                <div className="flex items-center h-16 justify-center">
                     <div className="flex-none w-fit text-3xl text-left">{matchForBoth && <Link to={"/"}><FcPrevious /></Link>}</div>
                     <div className="flex-none w-fit text-3xl text-left">{matchForBack && <Link to={`/${id}`}><FcPrevious /></Link>}</div>
-                    <div className='flex-grow text-center text-2xl font-bold'><Link to={"/"}>Indian Mutual Funds</Link></div>
+                    <div className='flex-grow text-center text-2xl font-custom text-white font-bold'><Link to={"/"}>Indian Mutual Funds</Link></div>
                     <div className="flex-none w-fit text-3xl text-right">{matchForBoth && <Link to={`/${id}/metrics`}><FcNext /></Link>}</div>
                 </div>
             </nav>

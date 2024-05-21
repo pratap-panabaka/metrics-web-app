@@ -14,6 +14,10 @@ export default {
         dark: "#345995",
         lite: "#edcfbd",
         toolite: "#eeebd0"
+      },
+      fontFamily: {
+        sans: ['"poiret-one"', "sans-serif"],
+        custom: ['"tilt-warp"', "sans-serif"]
       }
     },
   },

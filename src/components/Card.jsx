@@ -6,17 +6,16 @@ function Card(props) {
     const { fundingInstitute } = obj;
 
     return (
-        <div className='text-center text-sm min-h-[200px] space-y-2 bg-lite items-center justify-center flex flex-col p-5'>
+        <div className='text-center text-toodark font-custom text-sm min-h-[200px] space-y-2 bg-toolite items-center justify-center flex flex-col p-5'>
             <div>{fundingInstitute.schemeName}</div>
-            <div>
-                {fundingInstitute.schemeCode}
-                <span>
-                    <Link to={`/${fundingInstitute.schemeCode}`}>
-                        <FcNext className='items-center text-center text-xl font-bold' />
-                    </Link>
-                </span>
-            </div>
-        </div>)
+            <p>{fundingInstitute.schemeCode}</p>
+            <span>
+                <Link to={`/${fundingInstitute.schemeCode}`}>
+                    <FcNext className='items-center text-center font-bold' />
+                </Link>
+            </span>
+        </div>
+    )
 }
 
 export default Card;
