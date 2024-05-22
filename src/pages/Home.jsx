@@ -25,6 +25,7 @@ function Home() {
             const response = await fetch(API)
             const json = await response.json();
             setData(json);
+            console.log(json);
             setLoading(false);
         } catch (error) {
             setError(error);
