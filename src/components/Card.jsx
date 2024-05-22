@@ -6,13 +6,13 @@ function Card(props) {
     const { fundingInstitute, index } = obj;
 
     return (
-        <div className='relative text-center text-white font-custom text-sm min-h-[200px] space-y-2 bg-dark items-center justify-center flex flex-col p-5'>
+        <div className='relative text-center text-white font-custom text-xs min-h-[200px] space-y-2 bg-dark items-center justify-center flex flex-col p-5'>
             <div>{fundingInstitute.schemeName}</div>
             <p>{fundingInstitute.schemeCode}</p>
-            <Link to={`/${fundingInstitute.schemeCode}`} className='text-toodark'>
+            <Link to={`/${fundingInstitute.schemeCode}`}>
                 <FcNext className='items-center text-center text-xl' />
             </Link>
-            <p className='absolute top-1 right-1 font-normal font-sans text-dark'>{index + 1}</p>
+            <p className='absolute top-1 right-1 font-normal font-sans text-white'>{index + 1}</p>
         </div>
     )
 }

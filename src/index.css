@@ -20,6 +20,16 @@
   .max-width {
     @apply max-w-3xl mx-auto
   }
+
+  .remove-arrow::-webkit-inner-spin-button,
+  .remove-arrow::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .remove-arrow {
+    -moz-appearance: textfield;
+  }
 }
 
 @layer base {
