@@ -1,18 +1,17 @@
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useMfiContext } from "../hooks/useMfiContext";
-import Spinner from "./Spinner";
 import { useFetchData } from "../hooks/useFetchData";
-import { useEffect } from "react";
+import Spinner from "./Spinner";
 
 function SchemeDetails() {
+    const { state } = useMfiContext();
     const { id } = useParams();
     const { fetchData, isLoading, error } = useFetchData();
 
     useEffect(() => {
-        fetchData(id);
-    }, [])
-
-    const { state } = useMfiContext();
+        !state && fetchData(id);
+    }, [id, state])
 
     return (
         <>

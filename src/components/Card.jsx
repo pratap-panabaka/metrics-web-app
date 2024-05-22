@@ -6,7 +6,7 @@ function Card(props) {
     const { fundingInstitute, index } = obj;
 
     return (
-        <div className='relative text-center text-white font-custom text-xs min-h-[200px] space-y-2 bg-dark items-center justify-center flex flex-col p-5'>
+        <div className='relative text-white font-custom text-sm md:text-base min-h-[200px] space-y-2 bg-dark items-center justify-center flex flex-col p-5'>
             <div>{fundingInstitute.schemeName}</div>
             <p>{fundingInstitute.schemeCode}</p>
             <Link to={`/${fundingInstitute.schemeCode}`}>
