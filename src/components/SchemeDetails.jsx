@@ -34,27 +34,27 @@ function SchemeDetails() {
                 <div className='min-h bg-lite p-5 space-y-2 max-width'>
                     <div className="bg-dark text-white p-5 flex flex-col shadow-custom space-y-2">
                         <div className="text-center font-bold font-custom">Details of Scheme Code - {state.meta.scheme_code}</div>
-                        <div className="border border-toodark px-4 py-2">
+                        <div className="border border-toolite px-4 py-2">
                             <p>Funding House Name:-</p>
                             <p className="font-bold font-custom text-white">{state.meta.fund_house}</p>
                         </div>
-                        <div className="border border-toodark px-4 py-2">
+                        <div className="border border-toolite px-4 py-2">
                             <p>Scheme Category:-</p>
                             <p className="font-bold font-custom text-white">{state.meta.scheme_category}</p>
                         </div>
-                        <div className="border border-toodark px-4 py-2">
+                        <div className="border border-toolite px-4 py-2">
                             <p>Scheme Code:-</p>
                             <p className="font-bold font-custom text-white">{state.meta.scheme_code}</p>
                         </div >
-                        <div className="border border-toodark px-4 py-2">
+                        <div className="border border-toolite px-4 py-2">
                             <p>Scheme Name:-</p>
                             <p className="font-bold font-custom text-white">{state.meta.scheme_name}</p>
                         </div >
-                        <div className="border border-toodark px-4 py-2">
+                        <div className="border border-toolite px-4 py-2">
                             <p> Scheme Type:-</p>
                             <p className="font-bold font-custom text-white">{state.meta.scheme_type}</p>
                         </div >
-                        <div className="border border-toodark px-4 py-2">
+                        <div className="border border-toolite px-4 py-2">
                             <p>Number of rows found:-</p>
                             <p className="font-bold font-custom text-white">{state.data.length}</p>
                         </div >

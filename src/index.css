@@ -14,7 +14,7 @@
   }
 
   .tb {
-    @apply border-collapse border border-toodark px-5 py-2
+    @apply border-collapse border border-toolite px-5 py-2
   }
 
   .max-width {
