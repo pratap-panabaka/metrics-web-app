@@ -8,7 +8,6 @@ function Header() {
 
     const root = useMatch("/");
     const details = useMatch(`/${id}`);
-    const metrics = useMatch(`/${id}/metrics`);
 
     return (
         <header className='bg-toodark sticky top-0 z-50'>
